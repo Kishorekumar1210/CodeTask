@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-14T21:06:42 IST" name="Suite" finished-at="2022-01-14T21:07:20 IST" duration-ms="37203">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.akamai.testrunner.TestRunner@61230f6a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-01-14T21:06:42 IST" name="Test" finished-at="2022-01-14T21:07:20 IST" duration-ms="37203">
+      <class name="com.akamai.testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.akamai.testrunner.TestRunner@61230f6a]" started-at="2022-01-14T21:06:42 IST" name="setUpClass" finished-at="2022-01-14T21:06:43 IST" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c6a5192]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.akamai.testrunner.TestRunner@61230f6a]" started-at="2022-01-14T21:06:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-14T21:07:08 IST" duration-ms="25673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a job matching given criteria"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Akamai Job portal]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.akamai.testrunner.TestRunner@61230f6a]" started-at="2022-01-14T21:07:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-14T21:07:19 IST" duration-ms="10832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a job matching given criteria"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Customer is notified when no offers match given criteria]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.akamai.testrunner.TestRunner@61230f6a]" started-at="2022-01-14T21:07:19 IST" name="tearDownClass" finished-at="2022-01-14T21:07:20 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.akamai.testrunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
